@@ -3,7 +3,8 @@ function compute()
 {
     
     var principal = document.getElementById("principal").value;
-    if(parseFloat(principal) <= 0 ){
+    console.log(principal);
+    if(parseFloat(principal) <= 0 || principal == ""){
         alert('Enter a positive number')
     }
     else{
